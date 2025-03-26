@@ -79,7 +79,7 @@ a
     height: inherit;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: red;
     justify-content: center;
     position: sticky;
     border-bottom: 1px solid lightgray;
