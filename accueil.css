@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'Poppins', sans-serif;
+}
+header
+{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+h1, h2, h3
+{
+    font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
+}
+p, a
+{
+    font-family: 'Ubuntu Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+p
+{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.5;
+}
+a
+{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-link
+{
+    margin: 0 20px;
+    position: relative;
+    color: #7f8c8d;
+    font-size: 15px;
+    text-decoration: none; 
+    font-weight: 500;
+    transition: 0.1s;
+}
+.nav-link:hover
+{
+    color: #3498db;
+    transform: scale(1.3);
+}
+.portfolio
+{
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.p2
+{
+    position: relative;
+    padding: 5px 0;
+    width: max-content;
+}
+.p2::after
+{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(135deg, #007FFF, #2c3e50);
+}
+.topnav
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    position: sticky;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px 0px 0px lightgrey;
+}
+.navigation
+{
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+}
+.lien-interne
+{
+    position: relative;
+    text-decoration: none;
+}
+.lien-interne::after
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    transform:scale(0);
+    background-color: #3498db;
+}
+.lien-interne:hover::after
+{
+    transform: scale(1);
+    transition: 0.3s;
+}
+p a 
+{
+    color: #3498db;
+}
+.home
+{
+    background-image: url(pexels-brett-sayles-2881232\ \(4\).jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 200px;
+}
+.home h1
+{
+    font-size: 4em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.bouton-apropos
+{
+    margin-top: 30px;
+}
+.bouton-apropos a
+{
+    padding: 10px 70px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    background-color: #f4f4f9;
+    border: 2px solid #f4f4f9;
+    transition: .3s;
+    border-radius: 100px;
+}
+.bouton-apropos a:hover
+{
+    background-color: transparent;
+    color: #f4f4f9;
+}
+.home p
+{
+    font-size: 2em;
+}
+.apropos
+{
+    padding: 20px 300px;
+    margin-bottom: 20px;
+}
+.apropos h1
+{
+    text-align: center;
+    text-decoration: none;
+}
+.cv
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #007FFF;
+    font-weight: 600;
+    position: relative;
+}
+
+p + p,h3,h2
+{
+    margin: 20px 0;
+}
+h2
+{
+    margin-bottom: 30px;
+    position: relative;
+    width: max-content;
+}
+.logo-artemys
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin-bottom:25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container div
+{
+    height: inherit;
+    margin: 0 20px;
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #007FFF;
+}
+.container .active
+{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+.container span
+{
+    font-size: 1em ;
+    font-weight: 700;
+    text-align: center;
+}
+img.artemys-logo
+{
+    width: 200px;
+    margin: 20px 0;
+}
+p .active
+{
+    font-weight: 600;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.bold
+{
+    font-weight: bold;
+}
+.footer, footer
+{
+    height: 5vh;
+    background-image: url(pexels-brett-sayles-2881232\ \(4\).jpg);
+    background: linear-gradient(135deg, #007FFF, #2c3e50);
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer span, footer span
+{
+    margin: 0 15px;
+}
+.footer a, footer a 
+{
+    color: white;
+}
+.footer a:hover,footer a:hover
+{
+    color: #7287fb ;
+}
+.footer .fa-brands, footer .fa-brands
+{
+    font-size: 20px;
+}
+.competences
+{
+    margin: 15px 0;
+}
+.comp
+{
+    display: flex;
+}
+.box-competences1
+{
+    width: 50%;
+    margin-top: 15px;
+    margin-right:50px;
+}
+
+
+/* Style Veille*/
+
+
+.content
+{
+    text-align: center;
+    padding: 40px 400px;
+    min-height: 70vh;
+}
+
+.veille
+{
+    color: #1c6ea4;
+}
+.content h2,h3
+{
+    text-align: left;
+}
+body {
+    font-family: 'Poppins', 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+}
+.container-projet
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+/* Carte de projet */
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 600px;
+    margin: 30px 50px;
+    display: inline-block;
+}
+.content-project-card
+{
+    padding: 15px 30px;
+}
+.project-card img
+{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.project-card:hover {
+    transform: translateY(-15px); /* Déplacement vertical */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+}
+
+/* Titre du projet */
+.project-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+/* Description du projet */
+.project-description {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.5;
+    text-align: center;
+}
+.project-button {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-button a
+{
+    padding: 12px 24px;
+    display: block;
+    color: white;
+}
+.project-button:hover {
+    background: linear-gradient(135deg, #00395f, #011c2f);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.project-button a:visited
+{
+    color: white;
+}
+.entete-projet
+{
+    background: linear-gradient(135deg, #007FFF, #2c3e50);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 15vh;
+}
+.projects
+{
+    min-height: 100vh;
+    background-image: url(images_serveurs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+
+}
+.border-box
+{
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(31, 2, 138, 0.1);
+}
+.border-box h1
+{
+    margin-bottom: 25px;
+}
+.border-box .titre
+{
+    font-weight: bold;
+}
+.border-box p
+{
+    margin: 0;
+}
+.veillebox
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.veillebox img
+{
+    max-height: 60px;
+    margin-right: 50px;
+}
+.reddit
+{
+    height: 40px;
+    width: auto;
+}
+iframe + div.veillebox
+{
+    background-color: red;
+}
