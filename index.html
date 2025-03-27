@@ -38,6 +38,15 @@
         <a href="presentation.html">Profil</a>
       </div>
     </section>
-
+<script>
+  document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey && (event.key === "u" || event.key === "U")) {
+        event.preventDefault();
+    }
+    if (event.key === "F12") {
+        event.preventDefault();
+    }
+});
+</script>
   </body>
 </html>
