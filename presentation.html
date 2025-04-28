@@ -145,6 +145,19 @@
     <a href="https://www.linkedin.com/in/daniel-akue-goeh
         " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
   </div>
+  <script>
+    document.addEventListener("contextmenu", function (event) {
+    event.preventDefault();
+});
+    document.addEventListener("keydown", function (event) {
+      if (event.ctrlKey && (event.key === "u" || event.key === "U")) {
+          event.preventDefault();
+      }
+      if (event.key === "F12") {
+          event.preventDefault();
+      }
+  });
+  </script>
 </body>
 
 </html>
