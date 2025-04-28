@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', 'Poppins', sans-serif;
+    font-family: 'Ubuntu Sans', 'Poppins', sans-serif;
 }
 header
 {
@@ -79,8 +79,8 @@ a
     height: inherit;
     display: flex;
     align-items: center;
-    background-color: red;
     justify-content: center;
+    background-color: #fff;
     position: sticky;
     border-bottom: 1px solid lightgray;
     box-shadow: 10px 0px 0px lightgrey;
@@ -308,9 +308,6 @@ p .active
     text-align: left;
 }
 body {
-    font-family: 'Poppins', 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
     color: #333;
     min-height: 100vh;
 }
@@ -346,20 +343,25 @@ body {
     transform: translateY(-15px); /* Déplacement vertical */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
 }
-
+.tableau
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 /* Titre du projet */
 .project-title {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #2c3e50;
 }
-/* Description du projet */
-.project-description {
-    font-size: 16px;
-    color: #7f8c8d;
+.texte-projets
+{
+    font-size: 15px;
+    text-align: justify;
     line-height: 1.5;
-    text-align: center;
+    margin: 15px 0;
 }
+
 .project-button {
     background: linear-gradient(135deg, #3498db, #2980b9);
     color: white;
@@ -379,7 +381,7 @@ body {
     color: white;
 }
 .project-button:hover {
-    background: linear-gradient(135deg, #00395f, #011c2f);
+    background: linear-gradient(135deg, #2770a0, #17547c);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 .project-button a:visited

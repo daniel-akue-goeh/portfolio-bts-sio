@@ -1,113 +1,204 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="accueil.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>PORTFOLIO | Daniel AKUE-GOEH : Epreuve E4</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="Favicon/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link rel="icon" type="image/svg+xml" href="Favicon/favicon.svg" />
-    <link rel="shortcut icon" href="Favicon/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="Favicon/apple-touch-icon.png"
-    />
-    <link rel="manifest" href="Favicon/site.webmanifest" />
-  </head>
-  <body>
-    <header>
-      <nav class="topnav">
-        <div class="portfolio"><div class="p1">port</div><div class="p2">folio</div></div>
-        <ul class="navigation">
-          <a class="nav-link" href="index.html"><li>Accueil</li></a>
-          <a href="presentation.html" class="nav-link"><li>Profil</li></a>
-          <a class="nav-link" href="projets.html"><li>Projets</li></a>
-          <a class="nav-link" href="epreuveE6.html"><li>Epreuve E6</li></a>
-          <a class="nav-link" href="veille_technologique.html"><li>Veille</li></a>
-        </ul>
-      </nav>
-    </header>
-    <div class="entete-projet">
-      <h1>Mes Projets</h1>
-      <p>Découvrez les projets que j'ai réalisés au cours de ma formation.</p>
-    </div>
-    <section class="container-projet">
-      <div class="project-card">
-        <img src="banniere_dfs.png" alt="Banniere-serveur-dfs" />
-        <div class="content-project-card">
-          <h1 class="project-title">Mise en place d'un Serveur de fichier</h1>
-          <p class="project-description">- Configuration du DFS</p>
-          <button class="project-button"><a href="">Voir le projet</a></button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="accueil.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>PORTFOLIO | Daniel AKUE-GOEH : Epreuve E4</title>
+  <link rel="icon" type="image/png" href="Favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="Favicon/favicon.svg" />
+  <link rel="shortcut icon" href="Favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="Favicon/site.webmanifest" />
+</head>
+
+<body>
+  <header>
+    <nav class="topnav">
+      <div class="portfolio">
+        <div class="p1">port</div>
+        <div class="p2">folio</div>
       </div>
-      <div class="project-card">
-        <img src="banniere_ad.png" alt="banniere_ad" />
-        <div class="content-project-card">
-          <h1 class="project-title">Installation du rôle ADDS sur Windows Server 2022</h1>
-          <p class="project-description">
-            - Installation Windows Server 2022 <br />
-            - Installation du rôle ADDS <br />
-            - Configuration du DNS
-          </p>
-          <button class="project-button"><a href="procedure_adds.pdf" target="_blank">Voir le projet</a></button>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="banniere_glpi.png" alt="banniere_glpi" />
-        <div class="content-project-card">
-          <h1 class="project-title">Mise en place d'un serveur GLPI</h1>
-          <p class="project-description"></p>
-          <button class="project-button"><a href="">Voir le projet</a></button>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="banniere_cisco.png" alt="bannire_cisco" />
-        <div class="content-project-card">
-          <h1 class="project-title">
-            Simulation du réseau informatique d'une Entreprise
-          </h1>
-          <p class="project-description">
-            - Création du réseau informatique <br />
-            - Configuration des équipements d'interconnexions\terminaux <br />
-            - Addressage IP
-          </p>
-          <button class="project-button"><a href="">Voir le projet</a></button>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="banniere_helpsdesk.png" alt="banniere_helpsdesk" />
-        <div class="content-project-card">
-          <h1 class="project-title">Brassage \ Installation de matériel</h1>
-          <p class="project-description">- Configuration du matériel<br>
-            - Brassage de baie réseau <br>
-            - Installation téléphonie
+      <ul class="navigation">
+        <a class="nav-link" href="index.html">
+          <li>Accueil</li>
+        </a>
+        <a href="presentation.html" class="nav-link">
+          <li>Profil</li>
+        </a>
+        <a class="nav-link" href="projets.html">
+          <li>Projets</li>
+        </a>
+        <a class="nav-link" href="epreuveE6.html">
+          <li>Epreuve E6</li>
+        </a>
+        <a class="nav-link" href="veille_technologique.html">
+          <li>Veille</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <div class="entete-projet">
+    <h1>Mes Projets</h1>
+    <p>Découvrez les projets que j'ai réalisés au cours de ma formation ainsi que mon tableau de synthèse.</p>
+  </div>
+  <section class="tableau">
+    <button class="project-button"><a href="" target="_blank">Accèder au tableau de synthèse</a></button>
+  </section>
+  <section class="container-projet">
+    <div class="project-card">
+      <img src="banniere_ad.png" alt="banniere_ad" />
+      <div class="content-project-card">
+        <h1 class="project-title">Installation et configuration d’un serveur ADDS et DHCP</h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Répondre aux incidents et aux demandes d’assistance et d’évolution <br>
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Travailler en mode projet
         </p>
-        <button class="project-button"><a href="">Voir le projet</a></button>
-        </div>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de mes études en BTS SIO, j’ai réalisé ce projet pour mettre en œuvre une infrastructure réseau
+          de base dans un environnement virtualisé. L’objectif était de simuler une entreprise ayant besoin d’un serveur
+          d’annuaire (AD DS) pour centraliser la gestion des utilisateurs et d’un service DHCP pour attribuer
+          automatiquement les adresses IP aux postes clients.
+        </p>
+        </p>
+        <button class="project-button"><a href="procedure_adds.pdf" target="_blank">Voir le projet</a></button>
       </div>
-    </section>
-    <footer>
-      <span>Portfolio | Daniel AKUE-GOEH</span>
-      <a
-        href="https://www.linkedin.com/in/daniel-akue-goeh
-        "
-        target="_blank"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-    </footer>
-  </body>
+    </div>
+    <div class="project-card">
+      <img src="banniere_promox.png" alt="banniere_proxmox" />
+      <div class="content-project-card">
+        <h1 class="project-title">Déploiement d’un cluster Proxmox avec stockage distribué Ceph et haute disponibilité
+        </h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Travailler en mode projet <br>
+          - Gérer le patrimoine informatique
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de ma formation, j’ai
+          réalisé un projet technique visant à concevoir une infrastructure de virtualisation fiable, performante et
+          tolérante aux pannes, en utilisant la solution Proxmox.
+        </p>
+        </p>
+        <button class="project-button"><a href="cluster_proxmox.pdf" target="_blank">Voir le projet</a></button>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="banniere_zabbix.png" alt="banniere_zabbix" />
+      <div class="content-project-card">
+        <h1 class="project-title">Installation et supervision avec Zabbix</h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Gérer le patrimoine informatique <br>
+          - Mettre à disposition des utilisateurs un service informatique <br>
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de mes études en BTS SIO, j’ai réalisé cette infrastructure pour une
+          entreprise fictive qui ne dispose actuellement d’aucune solution de supervision centralisée.
+        </p>
+        </p>
+        <button class="project-button"><a href="procedure_zabbix.pdf" target="_blank">Voir le projet</a></button>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="banniere_ipfire.png" alt="banniere_ipfire" />
+      <div class="content-project-card">
+        <h1 class="project-title">Installation d'un Pare-Feu IPFIRE et configuration d'un accès SSH</h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Travailler en mode projet <br>
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de la sécurisation des infrastructures réseau d'une organisation, il est
+          essentiel de contrôler et de protéger les accès aux différentes machines du système
+          d'information. Dans ce projet réalisé en cours de formation un Pare-Feu ainsi qu’un accès
+          SSH est mis en place.
+        </p>
+        </p>
+        <button class="project-button"><a href="procedure-ipfire.pdf" target="_blank">Voir le projet</a></button>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="banniere_wifi.png" alt="banniere_wifi" />
+      <div class="content-project-card">
+        <h1 class="project-title">Mise en place d’un réseau Wi-Fi temporaire sécurisé avec FortiGate</h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Répondre aux incidents et aux demandes d’assistance et d’évolution <br>
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Travailler en mode projet <br>
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de la visite d’un client au sein de l’entreprise, une demande a été enregistrée via
+          l’outil de gestion des tickets GLPI afin de lui fournir un accès temporaire à Internet. J’ai été chargé de
+          mettre en place un réseau Wi-Fi éphémère, sécurisé et limité dans le temps, afin de répondre à cette demande
+          tout en respectant les politiques de sécurité de l’entreprise.
+        </p>
+        </p>
+        <button class="project-button"><a href="projet-wifi.pdf" target="_blank">Voir le projet</a></button>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="banniere_deploiment.png" alt="banniere_deploiment" />
+      <div class="content-project-card">
+        <h1 class="project-title">Préparation et déploiement de postes de travail </h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Répondre aux incidents et aux demandes d’assistance et d’évolution <br>
+          - Gérer le patrimoine informatique <br>
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Dans le cadre de l'arrivée massive de nouveaux collaborateurs, j'ai été chargé de préparer et de configurer
+          les postes de travail afin d'assurer leur mise à disposition dans les meilleurs délais.
+        </p>
+        </p>
+        <button class="project-button"><a href="projet-deploiment.pdf" target="_blank">Voir le projet</a></button>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="banniere_glpi.png" alt="banniere_glpi" />
+      <div class="content-project-card">
+        <h1 class="project-title">Gestion et résolution d'incidents utilisateurs via GLPI <br> & <br>Création de
+          procédures</h1>
+        <span class="bold">Compétences</span> <br>
+        <p class="texte-projets">
+          - Répondre aux incidents et aux demandes d’assistance et d’évolution <br>
+          - Mettre à disposition des utilisateurs un service informatique <br>
+          - Travailler en mode projet
+        </p>
+        <span class="bold">Description</span>
+        <p class="texte-projets">
+          Afin d'assurer la continuité du service, réduire les temps d'intervention et garantir une meilleure qualité de
+          support, j'ai été chargé de traiter des tickets ouverts par les utilisateurs dans GLPI. J'ai également été
+          amené à créer des procédures.
+        </p>
+        </p>
+        <button class="project-button"><a href="projet-glpi.pdf" target="_blank">Voir le projet</a></button>
+        <button class="project-button"><a href="procedures.pdf" target="_blank">Voir les procédures</a></button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span>Portfolio | Daniel AKUE-GOEH</span>
+    <a href="https://www.linkedin.com/in/daniel-akue-goeh
+        " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </footer>
+</body>
+
 </html>
