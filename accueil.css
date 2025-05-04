@@ -374,6 +374,7 @@ body {
     transition: all 0.3s ease-in-out;
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
 }
 .project-button a
 {
@@ -452,4 +453,14 @@ body {
 iframe + div.veillebox
 {
     background-color: red;
+}
+.lienprojetE6 a
+{
+    color: #333;
+    font-weight: 400;
+}
+.lienprojetE6 a:hover
+{
+    color: #2980b9;
+    font-weight: bold;
 }
